@@ -10,17 +10,6 @@ body {
     background-color: white;
     background: linear-gradient(to right, #002E5D, #BF5700)
 }
-
-.header {
-    background: linear-gradient(to right, #002E5D, #BF5700);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding: 20px 0;
-    height: 30px
-}
         
 .left-section {
     flex: 0 0 25%;
@@ -273,4 +262,9 @@ p {
 .column li:before {
     content: "- ";
     margin-right: 10px;
+}
+
+.header {
+    align-self: flex-start;
+    margin-left: 20px;
 }
