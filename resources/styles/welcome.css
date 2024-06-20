@@ -35,6 +35,11 @@ body {
     text-align: left;
     background-color: white;
 }
+
+.education a {
+    font-size: 10px;
+    color: red;
+}
         
 .middle-section {
     flex: 1;
