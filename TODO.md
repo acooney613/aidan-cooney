@@ -21,3 +21,5 @@ Projects Page:
 - List of projects completed with an overview description below each, when completed, etc
 - filter by type of project (skills used)
 - filter by user lookup (have a search bar and filter results accordingly)
+- Each project should contain a brief blog post synopsis, then a link to the streamlit application so that the user can toy with things. 
+- Create sub-categories (Data Science, Database Engineering, Data Analysis, etc.) and then open dropdowns for those projects and their descriptions on the projects page. 
