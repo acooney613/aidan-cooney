@@ -23,3 +23,4 @@ Projects Page:
 - filter by user lookup (have a search bar and filter results accordingly)
 - Each project should contain a brief blog post synopsis, then a link to the streamlit application so that the user can toy with things. 
 - Create sub-categories (Data Science, Database Engineering, Data Analysis, etc.) and then open dropdowns for those projects and their descriptions on the projects page. 
+- Could have some projects link/depend on other projects such as a data cleaning project that then links to another project through which the data was already cleaned. 
