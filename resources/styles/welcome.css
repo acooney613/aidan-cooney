@@ -236,8 +236,7 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 20px;
-    margin-top: 0px;
+    padding: 5px;
     font-size: 14px;
 }
 
@@ -264,9 +263,23 @@ p {
     margin-right: 10px;
 }
 
-.header-right {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-left {
     align-self: flex-start;
     margin-left: 20px;
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+.header-right {
+    align-self: flex-start;
+    margin-right: 70px;
     font-size: 10px;
     margin-top: 50px;
 }
