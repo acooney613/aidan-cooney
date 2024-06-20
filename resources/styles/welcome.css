@@ -267,4 +267,5 @@ p {
 .header {
     align-self: flex-start;
     margin-left: 20px;
+    font-size: 16px;
 }
