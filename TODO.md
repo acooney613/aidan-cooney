@@ -15,6 +15,7 @@ Welcome Page:
 
 School pop-ups:
 - Include various info like major gpa, relevant classes taken, etc.
+- For each course add a small hover over describing each of the courses' details
 
 Projects Page:
 - List of projects completed with an overview description below each, when completed, etc
