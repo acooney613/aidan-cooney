@@ -33,3 +33,12 @@ function hidePopupUT() {
 
 popupLinkUT.addEventListener('click', showPopupUT);
 closeBtnUT.addEventListener('click', hidePopupUT);
+
+document.querySelector('.dropbtn').addEventListener('click', function() {
+    var dropdownContent = document.querySelector('.dropdown-content');
+    if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+    } else {
+        dropdownContent.style.display = "block";
+    }
+});
