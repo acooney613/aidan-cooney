@@ -8,7 +8,8 @@ body {
     padding-top: 40px; /* value to adjust the padding on top */
     font-family: Arial, sans-serif;
     background-color: white;
-    background: linear-gradient(to right, #002E5D, #BF5700)
+    background: linear-gradient(to right, #002E5D, #BF5700);
+    font-size: 18px;
 }
         
 .left-section {
@@ -45,10 +46,19 @@ body {
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
-    text-align: center;
     margin: 20px;
     background: white;
     border-radius: 10px;
+}
+
+.middle-section h2 {
+    text-align: center
+}
+
+.middle-section p {
+    text-align: left;
+    text-indent: 0;
+    line-height: 1.5;
 }
         
 .right-section {
