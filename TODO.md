@@ -1,5 +1,9 @@
 Items to add to various pages:
 
+Create and host a data blog! Have an about the author section, and then a list of the projects that I have worked on. Sadly the lists here will not be filterable but hey its okay. 
+
+create a welcome page and have different projects that I can load then embed on the html page so that they can play around with streamlit apps and models that I have built and deployed . 
+
 Welcome Page:
 - Headshot (located on the left of the screen)
     - Underneath the headshot should be:
