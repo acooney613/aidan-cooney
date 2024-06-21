@@ -4,6 +4,8 @@ Create and host a data blog! Have an about the author section, and then a list o
 
 create a welcome page and have different projects that I can load then embed on the html page so that they can play around with streamlit apps and models that I have built and deployed . 
 
+- Instead of professional summary in the center, do personal projects instead. Make this item scrollable (do not had a scroll bar) and then when they click on the link open a new html page that has the details outlining what was done for the project and then the streamlit link at the bottom/popup window so they can play with and measure results. 
+
 Welcome Page:
 - Headshot (located on the left of the screen)
     - Underneath the headshot should be:
