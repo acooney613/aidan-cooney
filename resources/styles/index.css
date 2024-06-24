@@ -85,3 +85,28 @@ body {
     margin-right: 30px;
 }
 
+/* main body of the website */
+.main-section {
+    padding: 20px;
+    flex: 1;
+    overflow-x: hidden;
+}
+
+.section-padding {
+    margin-bottom: 20px;
+}
+
+/* project section */
+.projects-container {
+    white-space: nowrap;
+    padding-bottom: 10px;
+    overflow-x: auto;
+}
+
+.projects-container .project {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+}
