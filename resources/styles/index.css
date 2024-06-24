@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Fira Code' monospace;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* sidebar personal info panel */
+.sidebar {
+    background: #f0f0f0;
+    padding: 20px;
+    width: 350px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+}
+
+.sidebar img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.sidebar .name {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.sidebar .current-occupation {
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* about me section */
+.about-me {
+    margin-top: 30px;
+}
+
+.about-me .title {
+    font-size: 14;
+    color: rgba(128, 128, 128, .9); /* this is a placeholder color */
+    margin-bottom: 5px;
+}
+
+.about-me .content {
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .7);
+}
+
+/* image icons for sidebar */
+.link-icons-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-link {
+    display: block;
+}
+
+.image-link img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.image-link img:hover {
+    transform: scale(1.1);
+}
+
+.image-link img:first-child {
+    margin-left: 30px;
+}
+
+.image-link img:last-child {
+    margin-right: 30px;
+}
+

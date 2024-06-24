@@ -1,99 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
-    <link rel="stylesheet" type="text/css" href="resources/styles/welcome.css">
-    <script src="resources/js/welcome.js" defer></script>
-</head>
-<body>
-    <div class="left-section">
-        <img src="resources/images/headshot.jpeg" alt="Profile Image">
-        <div class="education">
-            <div align="center">
-                <h3>Education</h3>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Aidan Cooney Portfolio </title>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="resources/styles/index.css">
+    </head>
+    <body>
+        <div class="sidebar">
+            <img src="resources/images/headshot.jpeg">
+            <h2 class="name">Aidan Cooney</h2>
+            <a class="current-occupation">Master's in Data Science Candidate UT Austin</a>
+            <div class="about-me">
+                <p class="title">About</p>
+                <a class="content">Incoming Master's in Data Science Student at the University of Texas at Austin, I have a passion for utilizing machine learning models to drive insights into complex topics.</a>
             </div>
-            <h4 class="ut-popup" id="UT-Popup" title="Click For More Information">University of Texas Austin (MS) Data Science</h4>
-            <h4 class="byu-popup" id="BYU-Popup" title="Click for Relevant Coursework Completed">Brigham Young University (BS) Statistics: Data Science</h4>
-            <a>*NOTE: Clicking each school displays more information</a>
-        </div>
-    </div>
-    <div class="middle-section">
-        <h2>Projects</h2>
-        <ul>
-            <li >
-                <h3>Project 1</h3>
-                <p>Analyzing MLB attendance data to team success. This project dives into the relationships team statistics have on attendance for the MLB.</p>
-            </li>
-        </ul>
-        
-    </div>
-    <div class="right-section">
-        <div class="projects">
-            <div align="center">
-                <h3>Projects</h3>
-            </div>
-            <ul>
-                <li><a href="index.html" class="no-underline highlight">Data Science / ML</a></li>
-                <li><a href="index.html" class="no-underline highlight">Data Cleaning / Analysis</a></li>
-                <li><a href="index.html" class="no-underline highlight">Database Engineering</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="popup-BYU" id="popup-BYU">
-        <div class="header-container">
-            <div class="header-left">
-                <h2>Major - Statistics: Data Science</h2>
-                <h2>Minor - Computer Science</h2>
-            </div>
-            <div class="header-right">
-                <h2>Started: Aug, 2020</h2>
-                <h2>Completed: Apr, 2024</h2>
+            <div class="link-icons-container">
+                <a class="image-link" href="https://www.linkedin.com/in/aidan-p-cooney/" target="_blank">
+                    <img src="resources/images/linkedin.jpg">
+                </a>
+                <a class="image-link" href="https://github.com/acooney613" target="_blank">
+                    <img src="resources/images/github.jpg">
+                </a>
+                <a class="image-link" href="mailto:aidan.cooney613@gmail.com">
+                    <img src="resources/images/mail.jpg">
+                </a>
             </div>
         </div>
-        <button class="close-btn-BYU" id="closeBtnBYU">CLOSE</button>
-        <img src="resources/images/BYU.png" class="popup-img">
-        <div class="text-columns">
-            <div class="column">
-                <h3>Statistics/Data Science Courses</h3>
-                <ul>
-                    <li>Machine Learning</li>
-                    <li>Applied Bayesian Statistics</li>
-                    <li>Analysis of Correlated Data</li>
-                    <li>Data Science Process</li>
-                    <li>Probability and Inference 2</li>
-                    <li>Statistical Modeling 2</li>
-                    <li>Data Science Ecosystems</li>
-                    <li>Intro to Bayesian Statistics</li>
-                    <li>Probability and Inference 1</li>
-                    <li>Analysis of Variance</li>
-                    <li>Applied R Programming</li>
-                    <li>Introduction to R Programming</li>
-                    <li>Principles of Statistics</li>
-                </ul>
-            </div>
-            <div class="column">
-                <h3>Computer Science/Math Courses</h3>
-                <ul>
-                    <li>Intro Artificial Intelligence</li>
-                    <li>Calculus of Several Variables</li>
-                    <li>Algorithm Design and Analysis</li>
-                    <li>Advanced Programming Concepts</li>
-                    <li>Discrete Structures</li>
-                    <li>Data Structures</li>
-                    <li>Computational Linear Algebra</li>
-                    <li>Elementary Linear Alegbra</li>
-                    <li>Intro to Computer Programming</li>
-
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="popup-UT" id="popup-UT">
-        <button class="close-btn-UT" id="closeBtnUT">CLOSE</button>
-        <img src="resources/images/UT.png" class="popup-img">
-        <h4 class="popup-heading">Testing</h4>
-    </div>
-</body>
+    </body>
 </html>

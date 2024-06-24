@@ -30,3 +30,5 @@ Projects Page:
 - Each project should contain a brief blog post synopsis, then a link to the streamlit application so that the user can toy with things. 
 - Create sub-categories (Data Science, Database Engineering, Data Analysis, etc.) and then open dropdowns for those projects and their descriptions on the projects page. 
 - Could have some projects link/depend on other projects such as a data cleaning project that then links to another project through which the data was already cleaned. 
+
+- have small gray circles with skills that i have attained and then when each is clicked open a small window that contains information such as packages used, etc.
