@@ -17,7 +17,7 @@ body {
 
 .title {
     font-size: 14;
-    color: rgba(128, 128, 128, .9); /* this is a placeholder color */
+    color: rgba(128, 128, 128, .9);
     margin-bottom: 5px;
 }
 
@@ -130,6 +130,12 @@ body {
     margin-bottom: 20px;
 }
 
+.main-section h2 {
+    font-size: 20px;
+    color: rgba(128, 128, 128, .9);
+    margin-bottom: 5px;
+}
+
 /* project section */
 .projects-container {
     white-space: nowrap;
@@ -143,4 +149,14 @@ body {
     height: 300px;
     margin-right: 10px;
     background-color: #f9f9f9;
+}
+
+/* Experience Section */
+.experience-container {
+
+}
+
+/* Education Section */
+.education-container {
+    
 }
