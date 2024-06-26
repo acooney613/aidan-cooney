@@ -153,7 +153,29 @@ body {
 
 /* Experience Section */
 .experience-container {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
 
+.experience {
+    min-width: auto;
+}
+
+.experience h2 {
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.7);
+    margin-bottom: 5px;
+}
+
+.experience .time-frame {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.experience .experience-description {
+    font-size: 14px;
+    margin-top: 30px;
 }
 
 /* Education Section */
