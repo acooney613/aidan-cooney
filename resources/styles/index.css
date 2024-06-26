@@ -169,6 +169,13 @@ body {
     margin-bottom: 5px;
 }
 
+.experience .company {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ 
 .experience .time-frame {
     font-size: 15px;
     margin-top: 0;
