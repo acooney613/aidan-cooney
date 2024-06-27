@@ -134,7 +134,6 @@ body {
 .main-section h2 {
     font-size: 20px;
     color: rgba(128, 128, 128, .9);
-    margin-bottom: 5px;
 }
 
 /* project section */
@@ -154,13 +153,15 @@ body {
 
 /* Experience Section */
 .experience-container {
-    margin-top: 25px;
+    margin-top: 40px;
     margin-bottom: 10px;
     width: 800px;
 }
 
 .experience {
     min-width: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .experience h2 {
@@ -174,6 +175,12 @@ body {
     font-style: italic;
     margin-top: 0;
     margin-bottom: 10px;
+}
+
+.experience .company::after {
+    font-size: 16px;
+    font-style: normal;
+    content: ' | ';
 }
  
 .experience .time-frame {
@@ -190,5 +197,42 @@ body {
 
 /* Education Section */
 .education-container {
-    
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 800px;
+}
+
+.education {
+    min-width: auto;
+}
+
+.education h2{
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.7);
+    margin-bottom: 5px;
+}
+
+.education .degree {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.education .degree::after {
+    content: ' | ';
+    font-style: normal;
+    font-size: 16px;
+}
+
+.education .graduation {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.education .education-description {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
