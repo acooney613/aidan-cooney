@@ -30,11 +30,11 @@ function loadProject(url) {
     var projectFrame = document.getElementById('projectFrame');
     projectFrame.src = url;
 
-    //var educationSection = document.getElementById('educationContainer');
-    //educationSection.style.display = 'none';
+    var educationSection = document.getElementById('educationContainer');
+    educationSection.style.display = 'none';
 
-    //var experienceSection = document.getElementById('experienceSection');
-    //experienceSection.style.display = 'none';
+    var experienceContainer = document.getElementById('experienceContainer');
+    experienceContainer.style.display = 'none';
 
     var projectsContainer = document.getElementById('projectsContainer');
     projectsContainer.style.display = 'none';
@@ -46,11 +46,11 @@ function closeProject() {
         projectPage.style.display = 'none';
     }
 
-    //var educationSection = document.getElementById('educationContainer');
-    //educationSection.style.display = 'block';
+    var educationSection = document.getElementById('educationContainer');
+    educationSection.style.display = 'block';
 
-    //var experienceSection = document.getElementById('experienceSection');
-    //experienceSection.style.display = 'block';
+    var experienceContainer = document.getElementById('experienceContainer');
+    experienceContainer.style.display = 'block';
 
     var projectsContainer = document.getElementById('projectsContainer');
     projectsContainer.style.display = 'block';
