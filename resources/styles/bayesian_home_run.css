@@ -1,0 +1,10 @@
+.bayesian_home_run {
+    width: 100%;
+    height: 100%;
+
+}
+
+.bayesian_home_run h1 {
+    color: red;
+    font-size: 50px;
+}
