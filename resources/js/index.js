@@ -1,8 +1,3 @@
-// Test Project 1
-function openProjectOne() {
-    window.open('index.html', '_blank');
-}
-
 // *** Add additional projects here opening the appropriate html *** //
 
 // Expand-skills icon functionality
@@ -27,3 +22,36 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+function loadProject(url) {
+    var projectPage = document.getElementById('projectPage');
+    projectPage.style.display = 'block';
+
+    var projectFrame = document.getElementById('projectFrame');
+    projectFrame.src = url;
+
+    //var educationSection = document.getElementById('educationContainer');
+    //educationSection.style.display = 'none';
+
+    //var experienceSection = document.getElementById('experienceSection');
+    //experienceSection.style.display = 'none';
+
+    var projectsContainer = document.getElementById('projectsContainer');
+    projectsContainer.style.display = 'none';
+}
+
+function closeProject() {
+    var projectPage = document.getElementById('projectPage');
+    if (projectPage.style.display != 'none') {
+        projectPage.style.display = 'none';
+    }
+
+    //var educationSection = document.getElementById('educationContainer');
+    //educationSection.style.display = 'block';
+
+    //var experienceSection = document.getElementById('experienceSection');
+    //experienceSection.style.display = 'block';
+
+    var projectsContainer = document.getElementById('projectsContainer');
+    projectsContainer.style.display = 'block';
+}

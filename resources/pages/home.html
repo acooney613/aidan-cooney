@@ -1,68 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>Aidan Cooney Portfolio </title>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="resources/styles/index.css">
-    </head>
-    <body>
-        <div class="sidebar">
-            <img src="resources/images/headshot.jpeg">
-            <h2 class="name" onclick="closeProject()">Aidan Cooney</h2>
-            <a class="current-occupation">Master's of Data Science Candidate UT Austin</a>
-            <div class="about-me">
-                <p class="title">About</p>
-                <a class="content">Incoming Master's of Data Science Student at the University of Texas at Austin. I have a passion for utilizing machine learning models to drive insights into complex topics.</a>
-            </div>
-            <div class="link-icons-container">
-                <a class="image-link" href="https://www.linkedin.com/in/aidan-p-cooney/" target="_blank">
-                    <img src="resources/images/linkedin.jpg">
-                </a>
-                <a class="image-link" href="https://github.com/acooney613" target="_blank">
-                    <img src="resources/images/github.jpg">
-                </a>
-                <a class="image-link" href="mailto:aidan.cooney613@gmail.com">
-                    <img src="resources/images/mail.jpg">
-                </a>
-            </div>
-            <p class="title">Skills</p>
-            <div class="skills-section">
-                <span class="skill">Python</span>
-                <span class="skill">R</span>
-                <span class="skill">SQL</span>
-                <span class="skill">Java</span>
-                <span class="skill">C++</span>
-                <span class="skill">Data Analysis</span>
-                <span class="skill">Machine Learning</span>
-                <span class="skill-hidden">Deep Learning</span>
-                <span class="skill-hidden">HTML</span>
-                <span class="skill-hidden">Data Cleaning</span>
-                <span class="skill-hidden">QA Testing</span>
-                <span class="skill-hidden">Data Structures</span>
-                <span class="skill-hidden">Algorithms</span>
-                <span class="skill-hidden">Bayesian Analysis</span>
-                <span class="expand-icon">more...</span>
-            </div>
-        </div>
-        <div class="main-section" id="main-section">
-            <div class="project-page" id="projectPage">
-                <iframe id="projectFrame" class="project-frame" frameborder="0"></iframe> 
-            </div>
-            <div class="projects-container" id="projectsContainer">
-                <h2 class=".project-section-title">Projects</h2>
-                <div class="projects-scroll">
-                    <div class="project">
-                        <img src="projects/Bayesian_Home_Run_Comparison/resources/images/test.jpg">
-                        <h3 class="title">Bayesian Comparison Of Home Run Data</h3>
-                    </div>
-                    <div class="project" onclick="loadProject('projects/Bayesian_Home_Run_Comparison/testProject.html')">Test Project 1</div>
-                    <div class="project">Test Project 2</div>
-                    <div class="project">Test Project 3</div>
-                </div>  
-            </div>
-            <div class="experience-container" id="experienceContainer">
+<h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="projects/Bayesian_Home_Run_Comparison/resources/images/test.jpg">
+                    <h3 class="title">Bayesian Comparison Of Home Run Data</h3>
+                </div>
+                <div class="project" onclick="openProjectOne()">Test Project 1</div>
+                <div class="project">Test Project 2</div>
+                <div class="project">Test Project 3</div>
+            </div>   
+            <div class="experience-container">
                 <h2>Experience</h2>
                 <div class="experience">
                     <h2>Quality Assurance Engineer Intern</h2>
@@ -112,7 +58,7 @@
                     </div>
                 </div>
             </div>   
-            <div class="education-container" id="educationContainer">
+            <div class="education-container">
                 <h2>Education</h2>
                 <div class="education">
                     <h2>University of Texas at Austin</h2>
@@ -146,7 +92,3 @@
                     </div>
                 </div>
             </div>  
-        </div>
-        <script src="resources/js/index.js"></script>
-    </body>
-</html>

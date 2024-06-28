@@ -37,6 +37,7 @@ body {
     font-size: 40px;
     margin-top: 5px;
     text-align: center;
+    cursor: pointer;
 }
 
 .sidebar .current-occupation {
@@ -137,16 +138,30 @@ body {
 }
 
 /* project section */
+.project-page {
+    display: none;
+}
+
+.project-section-title {
+    font-size: 20px;
+    color: rgba(128, 128, 128, .9);
+}
+
 .projects-container {
+    display: block;
+}
+
+.projects-scroll {
     display: flex;
     flex-direction: row;
     white-space: nowrap;
-    padding-bottom: 10px;
     overflow-x: auto;
     gap: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
 }
 
-.projects-container .project {
+.projects-scroll .project {
     flex: 0 0 auto;
     width: 450px;
     height: 300px;
