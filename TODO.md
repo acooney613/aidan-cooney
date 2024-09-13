@@ -32,3 +32,9 @@ Projects Page:
 - Could have some projects link/depend on other projects such as a data cleaning project that then links to another project through which the data was already cleaned. 
 
 - have small gray circles with skills that i have attained and then when each is clicked open a small window that contains information such as packages used, etc.
+
+List of projects I have completed to add:
+- MLB Player Salary Predictor 
+- Airbnb Housing Price Predictor 
+- Bayesian Home Run Comparison
+- CS Labs (Make sure not to publish or include any of the actual code)
