@@ -1,0 +1,287 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    color: rgba(255, 255, 255, 0.7); /* Light text color */
+    background-color: #121212; /* Dark background */
+}
+
+/* sidebar personal info panel */
+.sidebar {
+    padding: 20px;
+    width: 350px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    align-self: flex-start;
+    background-color: #1e1e1e; /* Dark sidebar background */
+}
+
+.title {
+    font-size: 14px; /* Added 'px' to font size */
+    color: rgba(255, 255, 255, 0.9); /* Light title color */
+    margin-bottom: 5px;
+}
+
+.sidebar img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.sidebar .name {
+    margin-bottom: 10px;
+    color: #E0E0E0; /* Light name color */
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar .current-occupation {
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.7); /* Light occupation color */
+}
+
+/* about me section */
+.about-me {
+    margin-top: 30px;
+}
+
+.about-me .content {
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7); /* Light about me content color */
+}
+
+/* image icons for sidebar */
+.link-icons-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-link {
+    display: block;
+}
+
+.image-link img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    filter: invert(1);
+}
+
+.image-link img:hover {
+    transform: scale(1.1);
+}
+
+.image-link img:first-child {
+    margin-left: 30px;
+}
+
+.image-link img:last-child {
+    margin-right: 30px;
+}
+
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+}
+
+.skill {
+    background-color: #2a2a2a; /* Darker skill background */
+    color: #1a73e8; /* Original color for contrast */
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.skill-hidden {
+    background-color: #2a2a2a; /* Darker skill-hidden background */
+    color: #1a73e8; /* Original color for contrast */
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: none;
+}
+
+.expand-icon {
+    color: #E0E0E0; /* Light icon color */
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #1a73e8; /* Original color for contrast */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* main body of the website */
+.main-section {
+    padding: 20px;
+    flex: 1;
+    overflow-x: hidden;
+    background-color: #1e1e1e; /* Dark background for main section */
+}
+
+.section-padding {
+    margin-bottom: 20px;
+}
+
+.main-section h2 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9); /* Light section header color */
+}
+
+/* project section */
+.project-frame {
+    width: 100%;
+    height: 100%;
+}
+
+.project-page {
+    display: none;
+    margin-top: 0;
+}
+
+.projects-container {
+    display: block;
+}
+
+.projects-scroll {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.projects-scroll .project {
+    flex: 0 0 auto;
+    width: 450px;
+    height: 200px;
+    background-color: #2a2a2a; /* Dark project background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly lighter shadow */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.project .description {
+    margin-top: 25px;
+    width: 425px;
+    height: auto;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    color: rgba(255, 255, 255, 0.7); /* Light description color */
+}
+
+.project .title {
+    color: rgba(255, 255, 255, 0.9); /* Light project title color */
+    font-size: 22px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+/* Experience Section */
+.experience-container {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 800px;
+    display: block;
+}
+
+.experience {
+    min-width: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.experience h2 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9); /* Light experience section header color */
+    margin-bottom: 5px;
+}
+
+.experience .company {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.experience .company::after {
+    font-size: 16px;
+    font-style: normal;
+    content: ' | ';
+}
+ 
+.experience .time-frame {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7); /* Light time frame color */
+}
+
+.experience .experience-description {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7); /* Light experience description color */
+}
+
+/* Education Section */
+.education-container {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 800px;
+    display: block;
+}
+
+.education {
+    min-width: auto;
+}
+
+.education h2 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9); /* Light education section header color */
+    margin-bottom: 5px;
+}
+
+.education .degree {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.education .degree::after {
+    content: ' | ';
+    font-style: normal;
+    font-size: 16px;
+}
+
+.education .graduation {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.education .education-description {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7); /* Light education description color */
+}
